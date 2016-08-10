@@ -4,7 +4,7 @@ $config                           = array();
 /**
  * Gerais
  */
-$config["SITE_TITLE"]              = "Título do Site";
+$config["SITE_TITLE"]              = "LIVRE // Sistema";
 $config["SITE_PAGEINDEX"]          = "home";
 $config["SITEKEY"]                = "123456789";
 
