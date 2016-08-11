@@ -5,7 +5,7 @@ $form->AddFieldString('Nome', 'Nome', 100, 3);
 $form->AddFieldLkpList('Professor', 'Professor', 'Membros', 'Nome', null, 2);
 
 $form->AddGroup('Imagem da Capa do Curso');
-$form->AddDescriptionText('Dimensão da capa: 000x000px');
+$form->AddDescriptionText('Dimensão da capa: 1170x675px');
 $form->AddFieldImage('Capa', 'Capa');
 
 if(!$form->Editing()){
