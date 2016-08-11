@@ -12,6 +12,7 @@ if(!$form->Editing()){
   $form->AddFieldHidden('Publicado', 'Y');
 }
 
+$form->AddCollections('Módulos', 'modulos.grid.php', 'CursoModulos', 'Curso');
 $form->AddCollections('Alunos', 'alunos.grid.php', 'CursoAlunos', 'Curso');
 
 $form->PrintHTML();

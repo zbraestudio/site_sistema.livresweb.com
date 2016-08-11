@@ -17,7 +17,7 @@ if( $_SERVER['HTTP_HOST'] == 'localhost') {
   $config["ROOT_URL"] = "http://localhost/github/site_sistema.livresweb.com/";
 } else {
   $config["ROOT_PATH"] = "/dados/http/livresweb.com/sistema/";
-  $config["ROOT_URL"] = "http://http.nbz.net.br/livresweb.com/sistema/";
+  $config["ROOT_URL"] = "http://sistema.livresweb.com/";
 
 }
 
