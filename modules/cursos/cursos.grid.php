@@ -1,6 +1,7 @@
 <?
 $grid = new nbrAdminGrid('Cursos', 'Cursos');
 $grid->formFile = 'cursos.form.php';
+$grid->macroFile = 'cursos.macro.php';
 $grid->orders ='Nome';
 
 $grid->AddColumnString('Nome', 'Nome', 350);
