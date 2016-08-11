@@ -5,7 +5,7 @@ $form->AddFieldString('Nome', 'Nome', 100, 3);
 $form->AddFieldLkpList('Professor', 'Professor', 'Membros', 'Nome', null, 2);
 
 $form->AddGroup('Descrição do Curso');
-$form->AddFieldString('DescricaoCurta', 'Curta', 350, 3);
+$form->AddFieldText('DescricaoCurta', 'Curta', 3, 100);
 $form->AddFieldText('Descricao', 'Detalhada', 3, 200);
 
 $form->AddGroup('Imagem da Capa do Curso');
