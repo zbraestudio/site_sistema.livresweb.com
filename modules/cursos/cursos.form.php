@@ -12,6 +12,13 @@ $form->AddGroup('Imagem da Capa do Curso');
 $form->AddDescriptionText('Dimensão da capa: 1170x675px');
 $form->AddFieldImage('Capa', 'Capa');
 
+$form->AddGroup('Link Amigável');
+$form->AddDescriptionText('No campo abaixo, será informado o link amigável deste registro.');
+$form->AddDescriptionText('Não se preocupe! Este link é gerado automaticamente.');
+$form->AddFieldString('Link', 'Link', 100, 3, null, false, true);
+
+
+
 if(!$form->Editing()){
   $form->AddFieldHidden('Publicado', 'Y');
 }
