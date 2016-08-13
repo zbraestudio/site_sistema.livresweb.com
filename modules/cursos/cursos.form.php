@@ -24,7 +24,7 @@ if(!$form->Editing()){
 }
 
 $form->AddCollections('Módulos', 'modulos.grid.php', 'CursoModulos', 'Curso');
-$form->AddCollections('Alunos', 'alunos.grid.php', 'CursoAlunos', 'Curso');
+$form->AddCollections('Alunos', 'inscricoes.grid.php', 'CursoAlunos', 'Curso');
 
 $form->PrintHTML();
 ?>
