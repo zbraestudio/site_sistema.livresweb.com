@@ -14,7 +14,7 @@ $form->AddFieldHtml('Texto', 'Texto', 3, 100);
 
 $form->AddGroup('Imagem de Divulgação');
 $form->AddDescriptionText('Insira uma imagem quadrada. Recomendamos: 960x960px.');
-$form->AddFieldImage('Imagem', 'Imagem');
+$form->AddFieldImage('Imagem', 'Imagem', false);
 
 if(!$form->Editing()){
     $form->AddFieldHidden('Publicado', 'Y');
