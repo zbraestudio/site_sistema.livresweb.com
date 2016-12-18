@@ -33,7 +33,7 @@ else
 $config["DB_USER"]                 = "root";
 $config["DB_PASS"]                 = "nwtiago";
 $config["DB_PORT"]                 = "";
-$config["DB_DATABASE"]             = "livresweb_com_sistema";
+$config["DB_DATABASE"]             = "livresweb.com_sistema";
 $config["DB_PERSISTENT"]           = true;
 
 
